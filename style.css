@@ -1,0 +1,156 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #EAE0B9;
+}
+
+.card-container {
+  margin-top: 50px;
+  background-color: #3F644E;
+  width: 100%;
+  height: 500px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card-container img {
+  height: 100%;
+  width: auto;
+  
+}
+
+.card-container h1 {
+  text-align: center;
+  color: #c8b282;
+  margin-top: -400px;
+}
+
+.card-container h2 {
+  text-align: center;
+  color: #EAE0B9;
+}
+
+.card-container button {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 45%;
+  border-radius: 12px;
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  background-color: #6D4F39;
+  color: white;
+  border: none;
+}
+
+.card-container button {
+  transition-duration: 0.4s;
+}
+
+.card-container button:hover {
+  background-color: #c8b282; /* Green */
+  color: white;
+}
+
+.sec {
+  float: right;
+  margin-top: -306px;
+}
+
+.header {
+  margin-left: 50px;
+  margin-top: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header h1 {
+  font-size: 50px;
+  color: #6D4F39;
+}
+
+.header h2 {
+  margin-top: -20px;
+  color: #6D4F39;
+}
+
+.header img {
+  margin-right: 50px;
+  margin-top: -330px;
+  width: 350px;
+  height: auto;
+  float: right;
+}
+
+#card-container {
+  width: 100%;
+  display: flex;
+  background-color: #4B755C;
+}
+
+.container img {
+  width: 5%;
+  height: 5%;
+  padding-left: 20px;
+  margin-top: 7px;
+}
+
+.container h1 {
+  padding-left: 10px;
+}
+
+.container {
+  margin: 0;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 800;
+  color: #EAE0B9;
+}
+.container nav {
+  float: right;
+  flex-direction: column;
+  margin-left: 800px;
+}
+
+.container nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+.container nav li {
+  display: inline-block;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container nav li a {
+  color: #EAE0B9;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.container nav li a:hover {
+  color: #C8B282;
+}
+
+.container nav li a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #C8B282;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+.container nav li a:hover::before {
+  width: 100%;
+}

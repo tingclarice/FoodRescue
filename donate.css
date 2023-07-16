@@ -1,0 +1,170 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #EAE0B9;
+}
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.2); 
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.right img {
+  width: 420px;
+  height: auto;
+  margin-right: 380px;
+}
+
+.right h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #4B755C;
+  text-align: center;
+  margin-right: 300px;
+  margin-top: -19px;
+}
+
+.right p {
+  font-family: 'Poppins', sans-serif;
+  color: #4B755C;
+  margin-top: -20px;
+  margin-right: 300px;
+  text-align: center;
+}
+
+.left img {
+  width: 300px;
+  height: auto;
+  margin-left: 380px;
+}
+
+.left h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #4B755C;
+  margin-top: -25px;
+  margin-left: 500px;
+}
+
+.left p {
+  font-family: 'Poppins', sans-serif;
+  color: #4B755C;
+  margin-top: -20px;
+  margin-left: 400px;
+  text-align: center;
+}
+
+.option h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  margin-top: 120px;
+  text-align: center;
+  left: 40%;
+  color: #6D4F39;
+}
+
+.header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: -10px;
+  margin-left: 100px;
+  color: #6D4F39;
+}
+
+.header img {
+  float: right;
+  margin-top: -250px;
+  margin-right: 100px;
+  width: 35%;
+  height: 35%;
+}
+
+.header h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #4B755C;
+  margin-left: 100px;
+}
+
+#card-container {
+  width: 100%;
+  display: flex;
+  background-color: #4B755C;
+}
+
+.container img {
+  width: 5%;
+  height: 5%;
+  padding-left: 20px;
+  margin-top: 7px;
+}
+
+.container h1 {
+  padding-left: 10px;
+}
+
+.container {
+  margin: 0;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 800;
+  color: #EAE0B9;
+}
+.container nav {
+  float: right;
+  flex-direction: column;
+  margin-left: 800px;
+}
+
+.container nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+.container nav li {
+  display: inline-block;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container nav li a {
+  color: #EAE0B9;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.container nav li a:hover {
+  color: #C8B282;
+}
+
+.container nav li a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #C8B282;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+.container nav li a:hover::before {
+  width: 100%;
+}

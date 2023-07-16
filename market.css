@@ -1,0 +1,159 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #EAE0B9;
+}
+
+#card-container {
+  width: 100%;
+  display: flex;
+  background-color: #4B755C;
+}
+
+.container img {
+  width: 5%;
+  height: 5%;
+  padding-left: 20px;
+  margin-top: 7px;
+}
+
+.container h1 {
+  padding-left: 10px;
+}
+
+.container {
+  margin: 0;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 800;
+  color: #EAE0B9;
+}
+.container nav {
+  float: right;
+  flex-direction: column;
+  margin-left: 800px;
+}
+
+.container nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+.container nav li {
+  display: inline-block;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container nav li a {
+  color: #EAE0B9;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.container nav li a:hover {
+  color: #C8B282;
+}
+
+.container nav li a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #C8B282;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+.container nav li a:hover::before {
+  width: 100%;
+}
+
+.title {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.title h2 {
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif; 
+  font-weight: 600;
+  color: #6D4F39;
+  text-transform: uppercase;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.column img {
+  transition: transform 0.3s ease;
+}
+
+.column img:hover {
+  transform: scale(1.1);
+}
+
+.green-button {
+  z-index: 100;
+  font-family: 'Montserrat', sans-serif; 
+  background-color: #4B755C;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 35px;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: -500px;
+  margin-bottom: 40px;
+
+}
+
+.column:last-child .green-button {
+  margin-top: 4px; /* Add the desired top margin */
+}
+
+.green-button:hover {
+  background-color: #699b69;
+  color: #fffed6;
+}
+
+.show-more-section {
+  background-color: #C4C5A1;
+  padding: 40px;
+  text-align: center;
+  
+}
+
+.show-more-btn {
+  background-color: #4B755C;
+  font-family: 'Montserrat', sans-serif; 
+  color: white;
+  font-size: 40px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.show-more-btn:hover {
+  background-color: #699b69;
+  color: #fffed6;
+}
